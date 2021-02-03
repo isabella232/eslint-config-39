@@ -21,7 +21,7 @@ Make sure you check that the version you install in your project matches the one
 
 To use this config, make your eslint config extend from this configuration:
 
-```json
+```js
 {
   // In case you want to use more than one config, you can compose it 
   // using an array of configurations instead of this string 
