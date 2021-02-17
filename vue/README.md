@@ -1,8 +1,8 @@
-# @wolox/eslint-config-react
+# @wolox/eslint-config-vue
 
 [![FEArmy](../assets/FEA_open_source_sm.png)](https://github.com/orgs/Wolox/teams/front-end-army/members)
 
-Wolox's default ESLint React configuration
+Wolox's default ESLint Vue configuration
 
 ## Dependencies
 
@@ -10,12 +10,8 @@ We use [eslint](https://eslint.org/) as our linter and [prettier](https://github
 
 Also, this configuration relies on some peer dependencies you must add in your project as dev dependencies:
 
-- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
-- [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
-- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
-- [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel)
 - [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
-- [eslint-plugin-react-hooks](https://github.com/facebook/react)
+- [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
 
 Make sure you check that the version you install in your project matches the one in this configuration's package.json
 
@@ -27,7 +23,7 @@ To use this config, make your eslint config extend from this configuration:
 {
   // In case you want to use more than one config, you can compose it 
   // using an array of configurations instead of this string 
-  "extends": "@wolox/eslint-config-react",
+  "extends": "@wolox/eslint-config-vue",
   "rules": {
     // You can override any rule here.
   }
