@@ -1,0 +1,29 @@
+{
+  "name": "@wolox/eslint-config-node",
+  "version": "1.0.0",
+  "description": "Wolox's ESLint configuration for NodeJS projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolox/eslint-config.git"
+  },
+  "keywords": [
+    "ESLint",
+    "NodeJS",
+    "Wolox"
+  ],
+  "author": "Gonzalo Escandarani <gonzalo.escandarani@wolox.com.ar>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wolox/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Wolox/eslint-config-wolox/node#readme",
+  "peerDependencies": {
+    "eslint": "7.x",
+    "eslint-config-wolox": "4.x",
+    "prettier": "2.x",
+    "prettier-eslint": "12.x",
+    "eslint-plugin-prettier": "3.x",
+    "eslint-plugin-import": "2.x"
+  }
+}
