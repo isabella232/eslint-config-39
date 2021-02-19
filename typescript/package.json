@@ -1,0 +1,29 @@
+{
+  "name": "@wolox/eslint-config-typescript",
+  "version": "2.0.0",
+  "description": "Wolox's ESLint typescript configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolox/eslint-config.git"
+  },
+  "keywords": [
+    "ESLint",
+    "Wolox",
+    "Typescript"
+  ],
+  "author": "Julián Alvarez <julian.alvarez@wolox.com.ar>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wolox/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Wolox/eslint-config/typescript#readme",
+  "peerDependencies": {
+    "eslint": "7.19.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-babel": "5.3.1",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "@typescript-eslint/parser": "4.14.2",
+    "@typescript-eslint/eslint-plugin": "4.14.2"
+  }
+}
