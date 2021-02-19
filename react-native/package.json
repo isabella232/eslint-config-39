@@ -1,0 +1,33 @@
+{
+  "name": "@wolox/eslint-config-react-native",
+  "version": "1.0.0",
+  "description": "Wolox's ESLint configuration for React Native projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolox/eslint-config.git"
+  },
+  "keywords": [
+    "ESLint",
+    "React Native",
+    "Wolox"
+  ],
+  "author": "Mariano Zicavo <mariano.zicavo@wolox.com.ar>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wolox/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Wolox/eslint-config/react-native#readme",
+  "peerDependencies": {
+    "@react-native-community/eslint-config": "2.0.0",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "@wolox/eslint-config": "^1.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react-native": "^3.10.0"
+  }
+}
