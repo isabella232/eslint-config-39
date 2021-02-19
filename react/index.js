@@ -15,7 +15,8 @@ module.exports = {
     },
     sourceType: "module"
   },
-  plugins: ["react", "import", "jsx-a11y", "babel", "react-hooks", "prettier"],
+  extends: ["plugin:testing-library/react"],
+  plugins: ["react", "import", "jsx-a11y", "babel", "react-hooks", "prettier", "testing-library"],
   globals: {
     __DEV__: true
   },
