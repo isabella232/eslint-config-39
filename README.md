@@ -6,17 +6,21 @@ Wolox's set of ESLint configurations for linting JS projects.
 
 - [@wolox/eslint-config](./javascript)
 - [@wolox/eslint-config-react](./react)
+- [@wolox/eslint-config-react-native](./react-native)
+- [@wolox/eslint-config-node](./node)
+- [@wolox/eslint-config-vue](./vue)
+- [@wolox/eslint-config-typescript](./typescript)
 
 ## About
 
-This project is maintained by [Wolox](https://github.com/wolox) and these are its contributors:
+This project is maintained by [Wolox](https://github.com/wolox) and these are its maintainers:
 
 - [damfinkel](https://github.com/damfinkel)
 - [pabloferro](https://github.com/pabloferro)
 
 ## License
 
-**@wolox/eslint-config** is available under the MIT [license](LICENSE.md).
+**@wolox/eslint-config** and all its packages are available under the MIT [license](LICENSE.md).
 
     Copyright (c) 2021 Wolox
 
