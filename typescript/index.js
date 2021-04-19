@@ -19,6 +19,7 @@ module.exports = {
     'no-use-before-define': 'off',
     'no-shadow': 'off',
     'no-undef': 'off',
+    'no-magic-numbers': 'off',
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/ban-ts-comment': 'error',
     '@typescript-eslint/ban-types': 'error',
@@ -66,6 +67,9 @@ module.exports = {
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/triple-slash-reference': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',
-    '@typescript-eslint/no-shadow': 'error'
+    '@typescript-eslint/no-shadow': 'error',
+    '@typescript-eslint/no-magic-numbers': [
+      'error', { 'ignoreEnums': true }
+    ]
   },
 };
