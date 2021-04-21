@@ -161,7 +161,7 @@ module.exports = {
     "react/prefer-stateless-function": "error",
     "react/prop-types": [2, { ignore: ["style", "children", "dispatch"] }],
     "react/require-default-props": "off",
-    "react/react-in-jsx-scope": "error",
+    "react/react-in-jsx-scope": "off",
     "react/require-render-return": "error",
     "react/self-closing-comp": "error",
     "react/sort-prop-types": [
