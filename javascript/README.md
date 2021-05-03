@@ -1,4 +1,4 @@
-# eslint-config-wolox
+# @wolox/eslint-config
 
 Wolox eslint standard rules.  
 It uses [prettier](https://github.com/prettier/eslint-plugin-prettier) and [plugin import](https://github.com/benmosher/eslint-plugin-import) to define some rules.
