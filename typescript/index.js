@@ -69,7 +69,7 @@ module.exports = {
     '@typescript-eslint/type-annotation-spacing': 'error',
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-magic-numbers': [
-      'error', { 'ignoreEnums': true }
+      'error', { ignore: [0, 1, -1, 2], 'ignoreEnums': true }
     ]
   },
 };
