@@ -19,10 +19,17 @@ module.exports = {
     'no-use-before-define': 'off',
     'no-shadow': 'off',
     'no-undef': 'off',
+    
+    // note you must disable the base rule as it can report incorrect errors
     'no-magic-numbers': 'off',
+    "keyword-spacing": "off",
+    "brace-style": "off",
+
     '@typescript-eslint/adjacent-overload-signatures': 'error',
+    "@typescript-eslint/array-type": ["error", { "default": "array", "readonly": "array" }],
     '@typescript-eslint/ban-ts-comment': 'error',
     '@typescript-eslint/ban-types': 'error',
+    "@typescript-eslint/brace-style": ["error"],
     '@typescript-eslint/naming-convention': [
       'error',
       {
@@ -67,9 +74,11 @@ module.exports = {
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/triple-slash-reference': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',
+    "@typescript-eslint/keyword-spacing": ["error"],
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-magic-numbers': [
       'error', { ignore: [0, 1, -1, 2], 'ignoreEnums': true }
-    ]
+    ],
+    
   },
 };

@@ -14,7 +14,6 @@ Also, this configuration relies on some peer dependencies you must add in your p
 - [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel)
 - [eslint-import-resolver-typescript](https://www.npmjs.com/package/eslint-import-resolver-typescript)
 - [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser)
-- [eslint-plugin-react-hooks](https://github.com/facebook/react)
 - [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
 
 Make sure you check that the version you install in your project matches the one in this configuration's package.json
